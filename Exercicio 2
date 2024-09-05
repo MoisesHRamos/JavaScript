@@ -15,27 +15,49 @@
 <body>
     <header>
         <img src="logo.png" alt="Senai"width="400" height="300">
+        <hr>
         <nav>
-            <a href="https://sp.senai.br/cursos-tecnicos-empresas">Cursos Tecnicos!</a>
-            <a href="https://sp.senai.br/unidade/santabarbara/">Senai Santa Barbara</a>
+            <a href="https://sp.senai.br/cursos-tecnicos-empresas">Cursos Tecnicos!</a>   |
+            <a href="https://sp.senai.br/unidade/santabarbara/">Senai Santa Barbara</a>   |
             <a href="https://sp.senai.br/para-a-sua-empresa/mais-parceiros">Seja Parceiro Senai</a>
         </nav>
+        <hr>
     </header>
     <section>
         <div class="myDiv">
-            <h1>Senai SP</h1>
+            <h1><i>Senai SP</i></h1>
         </div>
     </section>
+    <hr>
     <section>
         <div class="myDiv">
-            <h1 >Cursos Livres</h1>
-            <p>Senai abre vagas para cursos livres</p>
+            <h1 ><i>Cursos Livres</i></h1>
+            <p><i>Senai abre vagas para cursos livres</i></p>
         </div>
+        <hr>
+        <h4>Cursos</h4>
+        <ul></ul>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Python</li>
+            <label for="disk_c">Vagas preenchidas :</label>
+            <meter id="disk_c" value="7" min="0" max="10">7 out of 10</meter> <br>
+        </ul>
         <img src="logo1.png" alt="Cursos"width="400" height="300">
     </section>
+    <hr>
     <section>
         <h1>Para Mais Informações</h1>
         <form action="">
+            <fieldset>
+            <legend>Informaçoes:</legend>
+            <label for="cars">Selecione seu curso:</label>
+
+            <select id="Cursos">
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Pyhton</option> 
+            </select> <br> <br>
             <label for="Pnome">Primeiro Nome:</label> 
             <input type="text"> <br> <br>
             <label for="Sobre">Sobrenome:</label> 
@@ -43,6 +65,7 @@
             <label for="Tel">Telefone:</label> 
             <input type="text"> <br> <br>
             <input type="button" value="Enviar">
+        </fieldset>
         </form>
     </section>
 </body>
