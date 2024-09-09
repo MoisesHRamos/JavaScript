@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula2</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Senai"width="400" height="300">
+        <nav>
+            <a href="https://sp.senai.br/cursos-tecnicos-empresas">Cursos Tecnicos!</a>   |
+            <a href="https://sp.senai.br/unidade/santabarbara/">Senai Santa Barbara</a>   |
+            <a href="https://sp.senai.br/para-a-sua-empresa/mais-parceiros">Seja Parceiro Senai</a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div>
+            <h1><i>Senai SP</i></h1>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1 >Cursos Livres</h1>
+            <p>Senai abre vagas para cursos livres</p>
+        </div>
+        <hr>
+        <h4>Cursos</h4>
+        <ul>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Python</li>
+        </ul>
+        <img src="logo1.png" alt="Cursos"width="400" height="300">
+    </section>
+    <hr>
+    <section>
+        <h1>Para Mais Informações</h1>
+        <form action="">
+            <fieldset>
+            <legend>Informaçoes:</legend>
+            <label for="cars">Selecione seu curso:</label>
+
+            <select id="Cursos">
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Pyhton</option> 
+            </select> <br> <br>
+            <label for="Pnome">Primeiro Nome:</label> 
+            <input type="text"> <br> <br>
+            <label for="Sobre">Sobrenome:</label> 
+            <input type="text"> <br> <br>
+            <label for="Tel">Telefone:</label> 
+            <input type="text"> <br> <br>
+            <input type="button" value="Enviar">
+        </fieldset>
+        </form>
+    </section>
+</body>
+</html>
