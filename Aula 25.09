@@ -1,0 +1,64 @@
+//Atividade 1
+
+let numeroMaior = 0
+
+for (let i = 0; i < 10; i++) {
+    let numero = Number(prompt("digite um numero: "))
+    while (numero <= 0){
+        numero = Number(prompt("numero invalido, digite um numero: "))
+    }
+    if (numero > numeroMaior) {
+        numeroMaior = numero
+    }
+}
+alert("o numero maior é: " + numeroMaior)
+
+//Atividade 2
+
+let numeroMenor = 0
+
+for (let i = 0; i < 4; i++) {
+    let numero = Number(prompt("digite um numero: "))
+    while (numero <= 0){
+        numero = Number(prompt("numero invalido, digite um numero: "))
+    }
+    if (numero < numeroMenor || numeroMenor == 0) {
+        numeroMenor = numero
+    }
+}
+alert("o numero menor é: " + numeroMenor)
+
+//Atividade 3
+
+let media = 0
+
+for (let i = 0; i < 10; i++) {
+    let numero = Number(prompt("digite a nota do aluno: "))
+    media += numero
+    while (numero <= 0){
+        numero = Number(prompt("numero invalido, digite um numero: "))
+    }
+}
+media2 = (media / 10)
+alert("a media é: " + media2)
+
+//Atividade 4
+
+let media = 0
+
+for (let i = 0; i < 4; i++) {
+    let numero = Number(prompt("digite a nota do aluno: "))
+    media += numero
+    while (numero <= 0){
+        numero = Number(prompt("numero invalido, digite um numero: "))
+    }
+}
+media2 = (media / 4)
+alert("a media é: " + media2)
+if (media2 >= 6){
+    alert("aluno aprovado")
+} else{
+    alert("aluno reprovado")
+}
+
+
