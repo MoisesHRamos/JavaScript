@@ -1,0 +1,25 @@
+const alunos = [
+    { "nome": "Ana", "nota": 9.5 },
+    { "nome": "Carlos", "nota": 7.0 },
+    { "nome": "Pedro", "nota": 8.3 },
+    { "nome": "Mariana", "nota": 6.8 },
+    { "nome": "Lucas", "nota": 5.5 },
+    { "nome": "Juliana", "nota": 10.0 },
+    { "nome": "Roberto", "nota" : 4.2 },
+    { "nome": "Fernanda", "nota": 8.7 },
+    { "nome": "Diego", "nota": 3.9 },
+    { "nome": "Sofia", "nota": 7.5 }
+];
+
+let aprovados = []
+let reprovados = []
+
+for (i = 0; i < alunos.length; i++){
+    if(alunos[i].nota > 6){
+        aprovados.push("\n" + alunos[i].nome  +"--"+ alunos[i].nota )
+    } else {
+        reprovados.push("\n" + alunos[i].nome +"--"+ alunos[i].nota)
+    }
+}
+alert("Alunos aprovados:" + aprovados)
+alert("Alunos reprovados:" + reprovados)
