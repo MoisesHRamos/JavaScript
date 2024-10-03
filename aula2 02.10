@@ -1,0 +1,12 @@
+// Com base no array de números fornecido, 
+// crie um programa que crie e atribua em um novo array apenas os números impares do array base, ao final mostre o array na tela
+
+const numerosAleatorios = [5, 2, 8, 1, 7, 3, 6, 4]
+let numerosImpares = []
+
+for (i = 0; i < numerosAleatorios.length; i++){
+    if (numerosAleatorios[i] %2 == 1 ){
+        numerosImpares.push(numerosAleatorios[i])
+    }
+}
+alert(numerosImpares)
